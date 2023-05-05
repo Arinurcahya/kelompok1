@@ -6,7 +6,7 @@ class Nama extends StatelessWidget {
     'Budi Santoso',
     'Diana Susanti',
     'Eko Wibowo',
-    'Fauzan Rahman',
+    'Fauzan rafan',
     'Gita Pratiwi',
     'Hendra Kurniawan',
     'Indra Permana',
