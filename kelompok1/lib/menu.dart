@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:arinurcahya_project/menu/biodata.dart';
-import 'package:arinurcahya_project/menu/nama.dart';
-import 'package:arinurcahya_project/menu/telepon.dart';
+import 'package:kelompok1/biodata.dart';
+import 'package:kelompok1/nama.dart';
+import 'package:kelompok1/telepon.dart';
 
 class menu extends StatelessWidget {
   const menu({ superkey});
