@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kelompok1/biodata.dart';
 import 'package:kelompok1/nama.dart';
 import 'package:kelompok1/telepon.dart';
+import 'package:kelompok1/direktur.dart';
+import 'package:kelompok1/alat.dart';
 
 class menu extends StatelessWidget {
   const menu({ superkey});
@@ -62,6 +64,36 @@ class menu extends StatelessWidget {
                   },
                   icon: Icon(Icons.directions_car),
                   label: Text("Kendaraan"),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Color.fromARGB(255, 155, 48, 254)),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Alat()),
+                    );
+                  },
+                   icon: Icon(Icons.local_hospital),
+                  label: Text("Alat P3K"),
+                ),
+                SizedBox(
+                  width: 20.0,
+                ),
+                ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Color.fromARGB(255, 155, 48, 254)),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Direktur()),
+                    );
+                  },
+                   icon: Icon(Icons.account_balance),
+                  label: Text("Direktur "),
                 ),
                 SizedBox(
                   width: 20.0,
