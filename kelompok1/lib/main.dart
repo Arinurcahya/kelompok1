@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:arinurcahya_project/menu/menu.dart';
+import 'package:kelompok1/menu.dart';
 
 void main() {
   runApp(MaterialApp(
